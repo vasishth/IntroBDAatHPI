@@ -1,0 +1,54 @@
+---
+title: "Lecture 0: Introduction to Bayesian data analysis, example code"
+author: "Shravan Vasishth"
+date: ""
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Load some necessary libraries:
+
+```{r}
+library(brms)
+library(bcogsci)
+library(bayesplot)
+data("df_pupil")
+```
+
+A standard frequentist linear model (incorrect here!):
+
+```{r}
+m<-lm(p_size~load,df_pupil)
+summary(m)
+```
+
+Graphical summary:
+
+```{r}
+plot(p_size~load,df_pupil)
+abline(coef(m))
+```
+
+A Bayesian equivalent using Stan (via a front-end, brms):
+
+```{r cache=TRUE,message=FALSE,results="hide"}
+m_brm<-brm(p_size ~ load,data=df_pupil)
+summary(m_brm)
+```
+
+Graphical summary:
+
+```{r}
+mcmc_hist(m_brm,pars=c("b_Intercept","b_load","sigma"))
+mcmc_trace(m_brm,pars=c("b_Intercept","b_load","sigma"))
+```
+
+Interactive graphical summaries:
+
+```{r eval=FALSE}
+library(shinystan)
+launch_shinystan(m_brm)
+```

@@ -1,0 +1,47 @@
+---
+title: "Lecture 1_1 Code"
+author: "Shravan Vasishth"
+date: ""
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Simulating a discrete random variable: the r-function
+
+Simulate tossing a coin ten times, with probability (which I call $\theta$ below) of heads 0.5:
+
+```{r}
+extraDistr::rbern(n = 10,prob = 0.5)
+```
+
+# The probability mass function: Bernoulli 
+
+$$p_X(x)= \theta^x (1-\theta)^(1-x)$$
+
+where x=0 or x=1.
+
+# What's the probability of a tails/heads? The d-function
+
+```{r}
+extraDistr::dbern(0,prob=0.5)
+extraDistr::dbern(1,prob=0.5)
+```
+
+Notice that these probabilities sum to 1.
+
+# The cumulative probability distribution function: the p-function: 
+
+$$F(x=1) = Prob(X \leq 1) = \sum_{0}^{1} p_X{x} = 1$$
+
+```{r}
+extraDistr::pbern(1,prob=0.5)
+```
+
+$$F(x=0) = Prob(X \leq 0) = \sum_{0}^{1} p_X{x} = 0.5$$
+
+```{r}
+extraDistr::pbern(0,prob=0.5)
+```
