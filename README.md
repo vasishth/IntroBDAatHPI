@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+## Welcome to The Open HPI MOOC Introduction to Bayesian Data Analysis
 
-You can use the [editor on GitHub](https://github.com/vasishth/IntroBDAatHPI/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+# The course
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You can access the course here (link coming January 2023).
 
-### Markdown
+# The instructors
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- [Shravan Vasishth](https://vasishth.github.io/)
+- [Anna Laurinavichyute](https://annlaurin.netlify.app/)
+- [Jõao Veríssimo](https://www.jverissimo.net/)
 
-```markdown
-Syntax highlighted code block
+# Materials
 
-# Header 1
-## Header 2
-### Header 3
+##  Week 0 materials
 
-- Bulleted
-- List
+## Week 1 materials
 
-1. Numbered
-2. List
+## Week 2 materials
 
-**Bold** and _Italic_ and `Code` text
+## Week 1 materials
 
-[Link](url) and ![Image](src)
-```
+## Week 2 materials
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+# Accompanying textbook
 
-### Jekyll Themes
+Bruno Nicenboim, Daniel J. Schad, and Shravan Vasishth. Introduction to Bayesian Data Analysis for Cognitive Science. 2021. Under contract with Chapman and Hall/CRC Statistics in the Social and Behavioral Sciences Series.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vasishth/IntroBDAatHPI/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+**Read online**: [here](https://vasishth.github.io/bayescogsci/).
