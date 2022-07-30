@@ -1,8 +1,8 @@
-## Welcome to The Open HPI MOOC Introduction to Bayesian Data Analysis
+## Welcome to The Open HPI online course: Introduction to Bayesian Data Analysis
 
 # The course
 
-You can access the course here (link coming January 2023).
+You can access the [Open HPI](https://open.hpi.de/) course here (link coming January 2023).
 
 # The instructors
 
